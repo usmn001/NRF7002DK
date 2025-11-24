@@ -1,0 +1,13 @@
+# Target labels
+ BLINKY
+# Source files and their labels
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/CMakeFiles/BLINKY
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/CMakeFiles/BLINKY.rule
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/CMakeFiles/BLINKY-complete.rule
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-build.rule
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-configure.rule
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-download.rule
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-install.rule
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-mkdir.rule
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-patch.rule
+/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-update.rule

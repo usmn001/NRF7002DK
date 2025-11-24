@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/CMakeFiles/BLINKY"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/CMakeFiles/BLINKY.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/CMakeFiles/BLINKY-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/_sysbuild/sysbuild/images/BLINKY-prefix/src/BLINKY-stamp/BLINKY-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BLINKY"
+		],
+		"name" : "BLINKY"
+	}
+}
