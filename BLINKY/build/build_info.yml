@@ -20,6 +20,6 @@ cmake:
   sysbuild: 'true'
 version: '0.1.0'
 west:
-  command: '/home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/west build --build-dir /home/musman/Desktop/NRF7002DK_GIT/BLINKY/build /home/musman/Desktop/NRF7002DK_GIT/BLINKY --pristine --board nrf7002dk/nrf5340/cpuapp --sysbuild -- -DCONF_FILE=prj.conf'
+  command: '/home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/west build --build-dir /home/musman/Desktop/NRF7002DK_GIT/BLINKY/build /home/musman/Desktop/NRF7002DK_GIT/BLINKY --pristine --board nrf7002dk/nrf5340/cpuapp -- -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y -DCONF_FILE=prj.conf'
   topdir: '/home/musman/ncs/nrfSDK'
   version: '1.4.0'

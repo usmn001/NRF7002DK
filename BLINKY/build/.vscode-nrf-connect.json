@@ -6,7 +6,7 @@
   "boardDirs": [
     "/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk"
   ],
-  "optimizations": "none",
+  "optimizations": "debug",
   "cmakeArgs": [],
   "confFiles": [
     "prj.conf"

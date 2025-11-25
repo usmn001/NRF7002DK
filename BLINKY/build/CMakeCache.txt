@@ -73,6 +73,12 @@ CMAKE_SKIP_RPATH:BOOL=NO
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //No help, variable specified on the command line.
+CONFIG_DEBUG_OPTIMIZATIONS:UNINITIALIZED=y
+
+//No help, variable specified on the command line.
+CONFIG_DEBUG_THREAD_INFO:UNINITIALIZED=y
+
+//No help, variable specified on the command line.
 CONF_FILE:UNINITIALIZED=prj.conf
 
 //No help, variable specified on the command line.

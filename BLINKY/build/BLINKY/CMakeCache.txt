@@ -441,6 +441,8 @@ Zephyr_DIR:PATH=/home/musman/ncs/nrfSDK/zephyr/share/zephyr-package/cmake
 BOARD_DIRECTORIES:INTERNAL=/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk
 //DT bindings root directories
 CACHED_DTS_ROOT_BINDINGS:INTERNAL=/home/musman/ncs/nrfSDK/nrf/dts/bindings;/home/musman/ncs/nrfSDK/zephyr/dts/bindings
+CLI_CONFIG_DEBUG_OPTIMIZATIONS:INTERNAL=y
+CLI_CONFIG_DEBUG_THREAD_INFO:INTERNAL=y
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR

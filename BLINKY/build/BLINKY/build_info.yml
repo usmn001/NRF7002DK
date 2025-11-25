@@ -38,6 +38,7 @@ cmake:
     files:
      - '/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp_defconfig'
      - '/home/musman/Desktop/NRF7002DK_GIT/BLINKY/prj.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/BLINKY/zephyr/misc/generated/extra_kconfig_options.conf'
      - '/home/musman/Desktop/NRF7002DK_GIT/BLINKY/build/BLINKY/zephyr/.config.sysbuild'
     user-files:
      - 'prj.conf'
