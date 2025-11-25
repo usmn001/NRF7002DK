@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Polling"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Polling.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Polling-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Button_Polling"
+		],
+		"name" : "Button_Polling"
+	}
+}

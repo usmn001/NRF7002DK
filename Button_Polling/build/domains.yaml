@@ -1,0 +1,7 @@
+default: Button_Polling
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build
+domains:
+  - name: Button_Polling
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/Button_Polling
+flash_order:
+  - Button_Polling

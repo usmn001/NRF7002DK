@@ -1,0 +1,13 @@
+# Target labels
+ Button_Polling
+# Source files and their labels
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Polling
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Polling.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Polling-complete.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-build.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-configure.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-download.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-install.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-mkdir.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-patch.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Polling/build/_sysbuild/sysbuild/images/Button_Polling-prefix/src/Button_Polling-stamp/Button_Polling-update.rule

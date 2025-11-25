@@ -1,0 +1,11 @@
+# Load Zephyr Arch Kconfig descriptions.
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/rx/Kconfig"
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/x86/Kconfig"
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/xtensa/Kconfig"
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/sparc/Kconfig"
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/riscv/Kconfig"
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/posix/Kconfig"
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/mips/Kconfig"
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/arm64/Kconfig"
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/arm/Kconfig"
+osource "/home/musman/ncs/nrfSDK/zephyr/arch/arc/Kconfig"
