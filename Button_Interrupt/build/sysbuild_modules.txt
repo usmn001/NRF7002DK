@@ -1,0 +1,2 @@
+"nrf":"/home/musman/ncs/nrfSDK/nrf":"/home/musman/ncs/nrfSDK/nrf/sysbuild"
+"mcuboot":"/home/musman/ncs/nrfSDK/bootloader/mcuboot":"/home/musman/ncs/nrfSDK/bootloader/mcuboot/boot/zephyr/sysbuild"

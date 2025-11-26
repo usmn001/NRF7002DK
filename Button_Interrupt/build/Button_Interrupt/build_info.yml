@@ -1,0 +1,54 @@
+cmake:
+  application:
+    configuration-dir: '/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt'
+    source-dir: '/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt'
+  board:
+    name: 'nrf7002dk'
+    path:
+     - '/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk'
+    qualifiers: 'nrf5340/cpuapp'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/musman/ncs/nrfSDK/nrf/dts/bindings'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/bindings'
+    files:
+     - '/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp.dts'
+    include-dirs:
+     - '/home/musman/ncs/nrfSDK/nrf/include'
+     - '/home/musman/ncs/nrfSDK/nrf/dts/common'
+     - '/home/musman/ncs/nrfSDK/nrf/dts/riscv'
+     - '/home/musman/ncs/nrfSDK/nrf/dts/arm'
+     - '/home/musman/ncs/nrfSDK/nrf/dts'
+     - '/home/musman/ncs/nrfSDK/zephyr/include'
+     - '/home/musman/ncs/nrfSDK/zephyr/include/zephyr'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/common'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/vendor'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/rx'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/x86'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/xtensa'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/sparc'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/riscv'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/posix'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/arm64'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/arm'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts/arc'
+     - '/home/musman/ncs/nrfSDK/zephyr/dts'
+  kconfig:
+    files:
+     - '/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp_defconfig'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/prj.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/Button_Interrupt/zephyr/misc/generated/extra_kconfig_options.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/Button_Interrupt/zephyr/.config.sysbuild'
+    user-files:
+     - 'prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk'
+  vendor-specific:
+    nordic:
+      svdfile: '/home/musman/ncs/nrfSDK/modules/hal/nordic/nrfx/mdk/nrf5340_application.svd'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: '/home/musman/ncs/nrfSDK/zephyr'
+version: '0.1.0'

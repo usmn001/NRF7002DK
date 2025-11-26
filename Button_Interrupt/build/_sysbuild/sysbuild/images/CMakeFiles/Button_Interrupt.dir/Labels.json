@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Interrupt"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Interrupt.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Interrupt-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/Button_Interrupt-prefix/src/Button_Interrupt-stamp/Button_Interrupt-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/Button_Interrupt-prefix/src/Button_Interrupt-stamp/Button_Interrupt-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/Button_Interrupt-prefix/src/Button_Interrupt-stamp/Button_Interrupt-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/Button_Interrupt-prefix/src/Button_Interrupt-stamp/Button_Interrupt-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/Button_Interrupt-prefix/src/Button_Interrupt-stamp/Button_Interrupt-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/Button_Interrupt-prefix/src/Button_Interrupt-stamp/Button_Interrupt-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt/build/_sysbuild/sysbuild/images/Button_Interrupt-prefix/src/Button_Interrupt-stamp/Button_Interrupt-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Button_Interrupt"
+		],
+		"name" : "Button_Interrupt"
+	}
+}
