@@ -1,0 +1,13 @@
+# Target labels
+ Button_Interrupt_Custom
+# Source files and their labels
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Interrupt_Custom
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Interrupt_Custom.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/CMakeFiles/Button_Interrupt_Custom-complete.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/Button_Interrupt_Custom-prefix/src/Button_Interrupt_Custom-stamp/Button_Interrupt_Custom-build.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/Button_Interrupt_Custom-prefix/src/Button_Interrupt_Custom-stamp/Button_Interrupt_Custom-configure.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/Button_Interrupt_Custom-prefix/src/Button_Interrupt_Custom-stamp/Button_Interrupt_Custom-download.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/Button_Interrupt_Custom-prefix/src/Button_Interrupt_Custom-stamp/Button_Interrupt_Custom-install.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/Button_Interrupt_Custom-prefix/src/Button_Interrupt_Custom-stamp/Button_Interrupt_Custom-mkdir.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/Button_Interrupt_Custom-prefix/src/Button_Interrupt_Custom-stamp/Button_Interrupt_Custom-patch.rule
+/home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/_sysbuild/sysbuild/images/Button_Interrupt_Custom-prefix/src/Button_Interrupt_Custom-stamp/Button_Interrupt_Custom-update.rule

@@ -1,0 +1,7 @@
+default: Button_Interrupt_Custom
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build
+domains:
+  - name: Button_Interrupt_Custom
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/Button_Interrupt_Custom/build/Button_Interrupt_Custom
+flash_order:
+  - Button_Interrupt_Custom
