@@ -1,9 +1,5 @@
 {
     "files.associations": {
         "gpio.h": "c"
-    },
-    "nrf-connect.debugging.bindings": {
-        "${workspaceFolder}/build": "Launch build",
-        "${workspaceFolder}/build/Button_Interrupt": "Launch build"
     }
 }

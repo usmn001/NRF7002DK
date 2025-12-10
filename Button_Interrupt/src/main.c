@@ -64,7 +64,7 @@ int main(void)
 	Status_en = status_error;
 	}
 	
-    
+
     gpio_init_callback(&BT0_CB_DATA,BT0_Pressed_ISR,BIT(BT0.pin)); /*Initializing struct gpio_callback, 
 	                                                         where BT0_CB_DATA is instance of struct gpio_callback, 
 															 BT0_Pressed_ISR is interrupt service routine, 
