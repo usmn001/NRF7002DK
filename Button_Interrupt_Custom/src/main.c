@@ -2,6 +2,7 @@
 #include <stdio.h> 
 #include <zephyr/kernel.h>        /* For using kernel services as we are using k_msleep() function*/
 #include <zephyr/drivers/gpio.h>  /* Contains structure gpio_dt_spec, the macros GPIO_DT_SPEC_GET(), and the functions, gpio_is_ready_dt(), gpio_pin_configure_dt() and gpio_pin_toggle_dt().*/
+#include <zephyr/sys/printk.h>
 
 #ifdef CONFIG_MYFUNCTION
 #include "myfunction.h"
@@ -30,13 +31,21 @@ static const struct gpio_dt_spec BT0 = GPIO_DT_SPEC_GET(SW0_NODE, gpios); /* Str
 static struct gpio_callback BT0_CB_DATA; /* BT0_CB_DATA callback variable  hold information such as the pin number and the function to be called when an interrupt occurs    */
 
 static bool led_state = true;
+uint8_t MAX_NUMBER = 7;
 
 void BT0_Pressed_ISR(const struct gpio_dt_spec *device,struct gpio_callback * cb,uint32_t pins)
 {
     led_state = false;
 	gpio_pin_set_dt(&led,led_state);
-	int a = 3, b = 4;
-	printk("The sum of %d and %d is %d\n", a, b, sum(a,b));
+
+    long int factorial = 1;
+	printk("Calculating factorial of numbers from 1 to %d\n",MAX_NUMBER);
+	for(int i=1;i<MAX_NUMBER;i++)
+	{
+		factorial = factorial*i;
+		printk("Factorial of %2d = %ld\n",i,factorial);
+	}
+	printk("-------------------------------------------------\n");
 }
 
 
@@ -45,6 +54,8 @@ int main(void)
 	int ret = 0;
 	
 	Error_Handler Status_en;
+
+    printk("nRF Connect SDK Fundamentals - Lesson 4 - Exercise 1\n");
 
 	if (false==gpio_is_ready_dt(&led) && false==gpio_is_ready_dt(&BT0)) /* Check if the device is ready using node led0 device pointer structure value */
 	{ 
@@ -78,13 +89,14 @@ int main(void)
 															 BIT Macro is configring & registering the port GPIO Port 1 Pin For Interrupt Handling*/
 	
 	gpio_add_callback(BT0.port,&BT0_CB_DATA);                /*Adding & Regsitering Device Pointer Port and struct BT0_CB_DATA */
-
+    
 	while (1) 
 	{		
 		led_state = true;
 		gpio_pin_set_dt(&led,led_state);   /*Writing 1 to pin associated with device pointer struct led*/
 		k_msleep(SLEEP_TIME_MS); /* kernel service function k_msleep() putting the main function to sleep for 1 second, resulting in the blinking behavior at 1-second intervals.*/  
 		printf("LED state: %s\n", led_state ? "ON" : "OFF");	
+	    //LOG_INF("USING LOGGER MODULE");
 	}
 	return Status_en;
 }
