@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/CMakeFiles/Logger_Module"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/CMakeFiles/Logger_Module.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/CMakeFiles/Logger_Module-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/Logger_Module-prefix/src/Logger_Module-stamp/Logger_Module-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/Logger_Module-prefix/src/Logger_Module-stamp/Logger_Module-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/Logger_Module-prefix/src/Logger_Module-stamp/Logger_Module-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/Logger_Module-prefix/src/Logger_Module-stamp/Logger_Module-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/Logger_Module-prefix/src/Logger_Module-stamp/Logger_Module-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/Logger_Module-prefix/src/Logger_Module-stamp/Logger_Module-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/_sysbuild/sysbuild/images/Logger_Module-prefix/src/Logger_Module-stamp/Logger_Module-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Logger_Module"
+		],
+		"name" : "Logger_Module"
+	}
+}

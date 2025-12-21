@@ -1,0 +1,7 @@
+default: Logger_Module
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build
+domains:
+  - name: Logger_Module
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/Logger_Module/build/Logger_Module
+flash_order:
+  - Logger_Module
