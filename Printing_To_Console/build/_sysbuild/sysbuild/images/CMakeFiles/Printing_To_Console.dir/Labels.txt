@@ -1,0 +1,13 @@
+# Target labels
+ Printing_To_Console
+# Source files and their labels
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/CMakeFiles/Printing_To_Console
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/CMakeFiles/Printing_To_Console.rule
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/CMakeFiles/Printing_To_Console-complete.rule
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/Printing_To_Console-prefix/src/Printing_To_Console-stamp/Printing_To_Console-build.rule
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/Printing_To_Console-prefix/src/Printing_To_Console-stamp/Printing_To_Console-configure.rule
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/Printing_To_Console-prefix/src/Printing_To_Console-stamp/Printing_To_Console-download.rule
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/Printing_To_Console-prefix/src/Printing_To_Console-stamp/Printing_To_Console-install.rule
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/Printing_To_Console-prefix/src/Printing_To_Console-stamp/Printing_To_Console-mkdir.rule
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/Printing_To_Console-prefix/src/Printing_To_Console-stamp/Printing_To_Console-patch.rule
+/home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/_sysbuild/sysbuild/images/Printing_To_Console-prefix/src/Printing_To_Console-stamp/Printing_To_Console-update.rule

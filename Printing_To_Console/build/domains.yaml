@@ -1,0 +1,7 @@
+default: Printing_To_Console
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build
+domains:
+  - name: Printing_To_Console
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/Printing_To_Console/build/Printing_To_Console
+flash_order:
+  - Printing_To_Console
