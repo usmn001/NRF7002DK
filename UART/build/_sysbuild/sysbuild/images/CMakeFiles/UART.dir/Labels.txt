@@ -1,0 +1,13 @@
+# Target labels
+ UART
+# Source files and their labels
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/CMakeFiles/UART
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/CMakeFiles/UART.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/CMakeFiles/UART-complete.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-build.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-configure.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-download.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-install.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-mkdir.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-patch.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-update.rule

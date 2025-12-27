@@ -1,0 +1,7 @@
+default: UART
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART/build
+domains:
+  - name: UART
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART/build/UART
+flash_order:
+  - UART

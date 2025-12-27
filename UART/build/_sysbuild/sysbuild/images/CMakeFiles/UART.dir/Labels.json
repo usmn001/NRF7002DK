@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/CMakeFiles/UART"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/CMakeFiles/UART.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/CMakeFiles/UART-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART/build/_sysbuild/sysbuild/images/UART-prefix/src/UART-stamp/UART-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"UART"
+		],
+		"name" : "UART"
+	}
+}
