@@ -1,0 +1,7 @@
+default: Multithreading_WRKQUE
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build
+domains:
+  - name: Multithreading_WRKQUE
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/Multithreading_WRKQUE
+flash_order:
+  - Multithreading_WRKQUE

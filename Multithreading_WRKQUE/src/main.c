@@ -1,0 +1,144 @@
+
+#include <stdio.h> 
+#include <zephyr/kernel.h>        /* For using kernel services as we are using k_msleep() function*/
+#include <zephyr/drivers/gpio.h>  /* Contains structure gpio_dt_spec, the macros GPIO_DT_SPEC_GET(), and the functions, gpio_is_ready_dt(), gpio_pin_configure_dt() and gpio_pin_toggle_dt().*/
+#include <zephyr/drivers/uart.h>  /* Contains UART Driver Structs*/
+#include <zephyr/logging/log.h>
+
+#ifdef CONFIG_UART_FUNC
+#include "uartfunc.h"
+#endif
+
+#ifdef CONFIG_LED_FUNC
+#include "led.h"
+#endif
+
+/* 1000 msec = 1 sec */
+#define SLEEP_TIME_MS   5000
+
+/* The devicetree node identifier for the "led0" & sw0 aliases defined in nrf5340_cpuapp_common.dtsi. */
+#define LED0_NODE DT_ALIAS(led0) /* Line uses the devicetree macro DT_ALIAS() to get the node identifier symbol from alias led0, which will represent node led0 */
+#define LED1_NODE DT_ALIAS(led1)
+
+
+//#define THREAD0_PRIORITY 7
+#define THREAD0_PRIORITY 7   			// When using k_busy_wait use same priority of threads, lower number indicates higher priority thread.
+#define THREAD1_PRIORITY 5
+#define STACKSIZE 1024       			// For thread0. thread1 
+
+
+#define WRK_QUE_THR_PRIO 6   			// THREAD1 OFFLOADING TASK TO WRK QUE
+#define WRK_THREAD_STACK_SIZE 512
+
+// Define stack area used by workqueue thread
+static K_THREAD_STACK_DEFINE(my_stack_area, WRK_THREAD_STACK_SIZE);
+
+// Define queue structure
+static struct k_work_q offload_work_q = {0};
+
+
+/* Define function to emulate non-urgent work */
+static inline void emulate_work()
+{
+	for (volatile int count_out = 0; count_out < 300000; count_out++)
+		;
+}
+
+/* Create work_info structure and offload function */
+struct work_info {
+	struct k_work work;
+	char name[25];         /*Here we can modify this type according to the requirement and itś submitted to work queue */
+} my_work;                 
+
+void offload_function(struct k_work *work_tem)
+{
+	emulate_work();
+}
+
+LOG_MODULE_REGISTER(MAIN_C,LOG_LEVEL_INF);
+
+
+
+
+/*
+ * A build error on this line means your board is unsupported.
+ * See the sample documentation for information on how to fix this.
+ */
+
+
+static uint8_t tx_buf1[] =   {"Thread 0 Running \r\n"};
+static uint8_t tx_buf2[] =   {"Thread1 : Happy New Year 2026 My Wifey \r\n"};
+
+void thread_func0(void)
+{
+	while (1) 
+	{
+		uint64_t time_stamp;
+	    int64_t delta_time;
+		time_stamp = k_uptime_get();
+		led0_on();
+		uart_send(tx_buf1,sizeof(tx_buf1));
+		k_msleep(3000);      	   // Use this api when we have threads of different priorities, change the thread state from “Running” to “Non-runnable” until the timeout has passed, and then change it to “Runnable”.
+		//k_busy_wait(1000000);      // Creating a delay of 1 second, , by executing a do nothing loop, used with threads of same priorities
+		led0_off();
+		//k_busy_wait(1000000);      // Creating a delay of 1 second, by executing a do nothing loop, used with threads of same priorities 
+		delta_time = k_uptime_delta(&time_stamp);
+        LOG_INF("thread0 yielding this round in %lld ms\n", delta_time);
+		k_msleep(3000);          // Use this api when we have threads of different priorities, change the thread state from “Running” to “Non-runnable” until the timeout has passed, and then change it to “Runnable”.
+		//k_yield();     
+		/*change the thread state from “Running” to “Runnable”, which means that at the next rescheduling point, 
+		  the thread that just yielded is still a candidate in the scheduler’s algorithm for making a thread active (“Running”), 
+		  not efficient takes cpu time when invoking scheduling algorithm */
+		                      
+		
+	}
+}
+
+
+
+void thread_func1(void)
+{
+	
+	/* STEP 8 - Start the workqueue, */
+	/* initialize the work item and connect it to its handler function */
+	k_work_queue_start(&offload_work_q, my_stack_area, K_THREAD_STACK_SIZEOF(my_stack_area),
+			  WRK_QUE_THR_PRIO, NULL);
+	strcpy(my_work.name, "Thread0 emulate_work()");
+	k_work_init(&my_work.work, offload_function);
+
+	while (1) 
+	{
+		uint64_t time_stamp;
+	    int64_t delta_time;
+		time_stamp = k_uptime_get();
+		led1_on();
+		uart_send(tx_buf2,sizeof(tx_buf2));
+		k_msleep(3000);      // Use this api when we have threads of different priorities, change the thread state from “Running” to “Non-runnable” until the timeout has passed, and then change it to “Runnable”.
+		//k_busy_wait(1000000);  // Creating a delay of 1 second, by executing a do nothing loop, used with threads of same priorities
+		k_work_submit_to_queue(&offload_work_q, &my_work.work);
+		led1_off();
+		delta_time = k_uptime_delta(&time_stamp);
+		LOG_INF("thread1 yielding this round in %lld ms\n", delta_time);
+		k_msleep(3000);      // Use this api when we have threads of different priorities, change the thread state from “Running” to “Non-runnable” until the timeout has passed, and then change it to “Runnable”.
+		//k_yield(); 
+		/*change the thread state from “Running” to “Runnable”, which means that at the next rescheduling point, 
+		  the thread that just yielded is still a candidate in the scheduler’s algorithm for making a thread active (“Running”), 
+		  not efficient takes cpu time when invoking scheduling algorithm */
+	}
+}
+
+
+K_THREAD_DEFINE(thread0_id,STACKSIZE,thread_func0,NULL,NULL,NULL,THREAD0_PRIORITY,0,0);
+K_THREAD_DEFINE(thread1_id,STACKSIZE,thread_func1,NULL,NULL,NULL,THREAD1_PRIORITY,0,0);	
+
+
+int main(void)
+{
+    uart_init();
+	led_init();
+
+    led0_off();
+	led1_off();
+
+	return 0;
+}

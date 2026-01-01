@@ -1,0 +1,19 @@
+{
+  "toolchainPath": "/home/musman/ncs/toolchains/b2ecd2435d",
+  "sdkPath": "/home/musman/ncs/nrfSDK",
+  "board": "nrf7002dk/nrf5340/cpuapp",
+  "boardDir": "/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk",
+  "boardDirs": [
+    "/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk"
+  ],
+  "optimizations": "debug",
+  "cmakeArgs": [],
+  "confFiles": [
+    "prj.conf"
+  ],
+  "buildDirectory": "build",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [],
+  "extraDtcOverlays": []
+}

@@ -1,0 +1,13 @@
+# Target labels
+ Multithreading_WRKQUE
+# Source files and their labels
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/CMakeFiles/Multithreading_WRKQUE
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/CMakeFiles/Multithreading_WRKQUE.rule
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/CMakeFiles/Multithreading_WRKQUE-complete.rule
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-build.rule
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-configure.rule
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-download.rule
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-install.rule
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-mkdir.rule
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-patch.rule
+/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-update.rule

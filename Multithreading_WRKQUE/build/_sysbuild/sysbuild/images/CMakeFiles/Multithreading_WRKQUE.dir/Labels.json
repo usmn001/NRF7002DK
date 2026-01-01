@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/CMakeFiles/Multithreading_WRKQUE"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/CMakeFiles/Multithreading_WRKQUE.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/CMakeFiles/Multithreading_WRKQUE-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Multithreading_WRKQUE/build/_sysbuild/sysbuild/images/Multithreading_WRKQUE-prefix/src/Multithreading_WRKQUE-stamp/Multithreading_WRKQUE-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Multithreading_WRKQUE"
+		],
+		"name" : "Multithreading_WRKQUE"
+	}
+}
