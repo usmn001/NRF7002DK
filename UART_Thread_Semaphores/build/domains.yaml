@@ -1,0 +1,7 @@
+default: UART_Thread_Semaphores
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Semaphores/build
+domains:
+  - name: UART_Thread_Semaphores
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Semaphores/build/UART_Thread_Semaphores
+flash_order:
+  - UART_Thread_Semaphores
