@@ -1,0 +1,7 @@
+default: UART_Thread_Mutex
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build
+domains:
+  - name: UART_Thread_Mutex
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/UART_Thread_Mutex
+flash_order:
+  - UART_Thread_Mutex

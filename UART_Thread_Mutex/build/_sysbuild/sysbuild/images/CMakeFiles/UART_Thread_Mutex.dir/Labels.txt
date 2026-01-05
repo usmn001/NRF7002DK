@@ -1,0 +1,13 @@
+# Target labels
+ UART_Thread_Mutex
+# Source files and their labels
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Thread_Mutex
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Thread_Mutex.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Thread_Mutex-complete.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-build.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-configure.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-download.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-install.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-mkdir.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-patch.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-update.rule

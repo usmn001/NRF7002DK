@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Thread_Mutex"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Thread_Mutex.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Thread_Mutex-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_Mutex/build/_sysbuild/sysbuild/images/UART_Thread_Mutex-prefix/src/UART_Thread_Mutex-stamp/UART_Thread_Mutex-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"UART_Thread_Mutex"
+		],
+		"name" : "UART_Thread_Mutex"
+	}
+}
