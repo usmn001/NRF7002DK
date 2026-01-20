@@ -1,0 +1,17 @@
+{
+  "nrfutil_device_version": "2.13.2",
+  "family": "NRF53_FAMILY",
+  "operations": [
+    {
+      "core": "NRFDL_DEVICE_CORE_APPLICATION",
+      "operation": {
+        "chip_erase_mode": "ERASE_RANGES_TOUCHED_BY_FIRMWARE",
+        "firmware": {
+          "file": "/home/musman/Desktop/NRF7002DK_GIT/UART_Thread_SemCPP/build_1/merged.hex"
+        },
+        "type": "program",
+        "verify": "VERIFY_READ"
+      }
+    }
+  ]
+}
