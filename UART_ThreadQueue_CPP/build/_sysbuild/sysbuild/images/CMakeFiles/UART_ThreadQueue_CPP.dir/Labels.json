@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadQueue_CPP"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadQueue_CPP.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadQueue_CPP-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/UART_ThreadQueue_CPP-prefix/src/UART_ThreadQueue_CPP-stamp/UART_ThreadQueue_CPP-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/UART_ThreadQueue_CPP-prefix/src/UART_ThreadQueue_CPP-stamp/UART_ThreadQueue_CPP-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/UART_ThreadQueue_CPP-prefix/src/UART_ThreadQueue_CPP-stamp/UART_ThreadQueue_CPP-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/UART_ThreadQueue_CPP-prefix/src/UART_ThreadQueue_CPP-stamp/UART_ThreadQueue_CPP-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/UART_ThreadQueue_CPP-prefix/src/UART_ThreadQueue_CPP-stamp/UART_ThreadQueue_CPP-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/UART_ThreadQueue_CPP-prefix/src/UART_ThreadQueue_CPP-stamp/UART_ThreadQueue_CPP-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/sysbuild/images/UART_ThreadQueue_CPP-prefix/src/UART_ThreadQueue_CPP-stamp/UART_ThreadQueue_CPP-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"UART_ThreadQueue_CPP"
+		],
+		"name" : "UART_ThreadQueue_CPP"
+	}
+}

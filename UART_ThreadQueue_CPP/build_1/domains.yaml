@@ -1,7 +1,0 @@
-default: UART_Thread_SemCPP
-build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_Thread_SemCPP/build_1
-domains:
-  - name: UART_Thread_SemCPP
-    build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_Thread_SemCPP/build_1/UART_Thread_SemCPP
-flash_order:
-  - UART_Thread_SemCPP
