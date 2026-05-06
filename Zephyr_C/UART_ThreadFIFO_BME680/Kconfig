@@ -1,0 +1,13 @@
+source "Kconfig.zephyr"
+
+config UART_FUNC
+	bool "Enable UART function"
+	default n
+
+config LED_FUNC
+	bool "Enable LED function"
+	default n
+
+config BME680_FUNC
+	bool "Enable BME680 function"
+	default n

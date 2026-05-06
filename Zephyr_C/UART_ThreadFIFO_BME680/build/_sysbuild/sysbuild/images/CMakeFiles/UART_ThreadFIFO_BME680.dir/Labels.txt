@@ -1,0 +1,13 @@
+# Target labels
+ UART_ThreadFIFO_BME680
+# Source files and their labels
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadFIFO_BME680
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadFIFO_BME680.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadFIFO_BME680-complete.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-build.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-configure.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-download.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-install.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-mkdir.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-patch.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-update.rule

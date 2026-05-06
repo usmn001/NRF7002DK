@@ -1,0 +1,7 @@
+default: UART_ThreadFIFO_BME680
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build
+domains:
+  - name: UART_ThreadFIFO_BME680
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/UART_ThreadFIFO_BME680
+flash_order:
+  - UART_ThreadFIFO_BME680

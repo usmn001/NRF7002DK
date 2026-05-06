@@ -1,0 +1,13 @@
+# Target labels
+ UART_ThreadFIFO_CPP
+# Source files and their labels
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadFIFO_CPP
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadFIFO_CPP.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadFIFO_CPP-complete.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_CPP-prefix/src/UART_ThreadFIFO_CPP-stamp/UART_ThreadFIFO_CPP-build.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_CPP-prefix/src/UART_ThreadFIFO_CPP-stamp/UART_ThreadFIFO_CPP-configure.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_CPP-prefix/src/UART_ThreadFIFO_CPP-stamp/UART_ThreadFIFO_CPP-download.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_CPP-prefix/src/UART_ThreadFIFO_CPP-stamp/UART_ThreadFIFO_CPP-install.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_CPP-prefix/src/UART_ThreadFIFO_CPP-stamp/UART_ThreadFIFO_CPP-mkdir.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_CPP-prefix/src/UART_ThreadFIFO_CPP-stamp/UART_ThreadFIFO_CPP-patch.rule
+/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_CPP-prefix/src/UART_ThreadFIFO_CPP-stamp/UART_ThreadFIFO_CPP-update.rule

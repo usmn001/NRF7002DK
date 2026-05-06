@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadFIFO_BME680"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadFIFO_BME680.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/CMakeFiles/UART_ThreadFIFO_BME680-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_BME680/build/_sysbuild/sysbuild/images/UART_ThreadFIFO_BME680-prefix/src/UART_ThreadFIFO_BME680-stamp/UART_ThreadFIFO_BME680-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"UART_ThreadFIFO_BME680"
+		],
+		"name" : "UART_ThreadFIFO_BME680"
+	}
+}

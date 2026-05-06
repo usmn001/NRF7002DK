@@ -1,0 +1,7 @@
+default: UART_ThreadFIFO_CPP
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build
+domains:
+  - name: UART_ThreadFIFO_CPP
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_ThreadFIFO_CPP/build/UART_ThreadFIFO_CPP
+flash_order:
+  - UART_ThreadFIFO_CPP
