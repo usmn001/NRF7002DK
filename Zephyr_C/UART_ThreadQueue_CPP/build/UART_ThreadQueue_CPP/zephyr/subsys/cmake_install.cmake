@@ -39,111 +39,111 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/canbus/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/canbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/debug/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/debug/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/fb/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/fb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/fs/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/fs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/ipc/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/ipc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/logging/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/logging/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/mem_mgmt/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/mem_mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/mgmt/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/modbus/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/modbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/pm/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/pmci/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/pmci/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/portability/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/portability/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/random/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/random/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/rtio/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/rtio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/sd/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/sd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/stats/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/stats/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/storage/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/task_wdt/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/task_wdt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/testsuite/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/testsuite/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/tracing/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/tracing/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/usb/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/usb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/timing/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/subsys/timing/cmake_install.cmake")
 endif()
 

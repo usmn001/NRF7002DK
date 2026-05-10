@@ -1,7 +1,7 @@
 cmake:
   application:
-    configuration-dir: '/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP'
-    source-dir: '/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP'
+    configuration-dir: '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP'
+    source-dir: '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP'
   board:
     name: 'nrf7002dk'
     path:
@@ -40,9 +40,9 @@ cmake:
   kconfig:
     files:
      - '/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp_defconfig'
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/prj.conf'
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/misc/generated/extra_kconfig_options.conf'
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/.config.sysbuild'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/prj.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/misc/generated/extra_kconfig_options.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP/zephyr/.config.sysbuild'
     user-files:
      - 'prj.conf'
   toolchain:

@@ -1,8 +1,8 @@
-/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/Kconfig/Kconfig.sysbuild.modules
-/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/Kconfig/boards/Kconfig.nrf7002dk
-/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/Kconfig/boards/Kconfig.sysbuild
-/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/Kconfig/soc/Kconfig.soc
-/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/Kconfig/soc/Kconfig.sysbuild
+/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/Kconfig/Kconfig.sysbuild.modules
+/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/Kconfig/boards/Kconfig.nrf7002dk
+/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/Kconfig/boards/Kconfig.sysbuild
+/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/Kconfig/soc/Kconfig.soc
+/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/Kconfig/soc/Kconfig.sysbuild
 /home/musman/ncs/nrfSDK/nrf/soc/nordic/Kconfig.soc
 /home/musman/ncs/nrfSDK/nrf/soc/nordic/Kconfig.sysbuild
 /home/musman/ncs/nrfSDK/nrf/soc/nordic/common/vpr/Kconfig.sysbuild

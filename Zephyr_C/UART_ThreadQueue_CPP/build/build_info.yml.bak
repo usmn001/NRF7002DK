@@ -7,16 +7,16 @@ cmake:
     revision: ''
   images:
    - name: 'UART_ThreadQueue_CPP'
-     source-dir: '/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP'
+     source-dir: '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP'
      type: 'MAIN'
   kconfig:
     files:
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/empty.conf'
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/empty.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/_sysbuild/empty.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/_sysbuild/empty.conf'
     user-files:
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/_sysbuild/empty.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/_sysbuild/empty.conf'
 version: '0.1.0'
 west:
-  command: '/home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/west build --build-dir /home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build /home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP --pristine --board nrf7002dk/nrf5340/cpuapp --sysbuild -- -DCONF_FILE=prj.conf -DDTC_OVERLAY_FILE=nrf7002dk_nrf5340_cpuapp.overlay -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y -DUART_ThreadQueue_CPP_DEBUG_THREAD_INFO=On'
+  command: '/home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/west build --build-dir /home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build /home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP --pristine --board nrf7002dk/nrf5340/cpuapp -- -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y -DCONF_FILE=prj.conf -DDTC_OVERLAY_FILE=nrf7002dk_nrf5340_cpuapp.overlay'
   topdir: '/home/musman/ncs/nrfSDK'
   version: '1.4.0'

@@ -528,7 +528,7 @@ rule C_STATIC_LIBRARY_LINKER__kernel_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/cmake --regenerate-during-build -S/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP -B/home/musman/Desktop/NRF7002DK_GIT/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP
+  command = /home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/cmake --regenerate-during-build -S/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP -B/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_ThreadQueue_CPP/build/UART_ThreadQueue_CPP
   description = Re-running CMake...
   generator = 1
 

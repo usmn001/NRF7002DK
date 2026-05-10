@@ -1,0 +1,7 @@
+default: BLINKY
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/BLINKY/build_1
+domains:
+  - name: BLINKY
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/BLINKY/build_1/BLINKY
+flash_order:
+  - BLINKY
