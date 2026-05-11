@@ -52,7 +52,7 @@ rule C_COMPILER__zephyr_final_
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__zephyr_final_
-  command = $PRE_LINK && ccache /home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"/home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/thumb/v8-m.main/nofp"  -lc -lgcc && $POST_BUILD
+  command = $PRE_LINK && ccache /home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"/home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/thumb/v8-m.main/nofp" -lstdc++ -lc -lgcc && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -68,21 +68,11 @@ rule C_COMPILER__zephyr_
 
 
 #############################################
-# Rule for compiling CXX files.
+# Rule for linking C static library.
 
-rule CXX_COMPILER__zephyr_
-  depfile = $DEP_FILE
-  deps = gcc
-  command = ccache /home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX static library.
-
-rule CXX_STATIC_LIBRARY_LINKER__zephyr_
+rule C_STATIC_LIBRARY_LINKER__zephyr_
   command = $PRE_LINK && ccache /home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/cmake -E rm -f $TARGET_FILE && ccache /home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib $TARGET_FILE && $POST_BUILD
-  description = Linking CXX static library $TARGET_FILE
+  description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
 
@@ -100,7 +90,7 @@ rule C_COMPILER__zephyr_pre0_
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__zephyr_pre0_
-  command = $PRE_LINK && ccache /home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"/home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/thumb/v8-m.main/nofp"  -lc -lgcc && $POST_BUILD
+  command = $PRE_LINK && ccache /home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES -L"/home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/thumb/v8-m.main/nofp" -lstdc++ -lc -lgcc && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 

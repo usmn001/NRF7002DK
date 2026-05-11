@@ -39,46 +39,46 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/lib/crc/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/lib/crc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/lib/libc/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/lib/libc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/lib/posix/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/lib/posix/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/lib/hash/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/lib/hash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/lib/heap/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/lib/heap/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/lib/mem_blocks/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/lib/mem_blocks/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/lib/os/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/lib/os/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/lib/utils/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/lib/utils/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/lib/uuid/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/lib/uuid/cmake_install.cmake")
 endif()
 

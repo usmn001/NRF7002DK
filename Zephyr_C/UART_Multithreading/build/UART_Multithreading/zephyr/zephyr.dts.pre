@@ -1478,8 +1478,14 @@ wifi-max-tx-pwr-5g-high-mcs7 = <13>;
  };
 };
 # 0 "<command-line>" 2
-# 1 "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay" 1
-# 13 "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay"
+# 1 "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay" 1
+# 13 "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay"
+&uart0 {
+     current-speed = <115200>;
+};
+# 0 "<command-line>" 2
+# 1 "./nrf7002dk_nrf5340_cpuapp.overlay" 1
+# 13 "./nrf7002dk_nrf5340_cpuapp.overlay"
 &uart0 {
      current-speed = <115200>;
 };

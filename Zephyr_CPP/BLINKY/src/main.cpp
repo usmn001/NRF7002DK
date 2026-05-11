@@ -5,6 +5,7 @@
 
 
 #include "drivers/led.hpp"
+#include "drivers/uart.hpp"
 /* 1000 msec = 1 sec */
 #define SLEEP_TIME_MS   1000
 
@@ -18,14 +19,15 @@
 int main(void)
 {
 	
-	led led1(0);
-	led1.led_init();
+	Led led1(0);
+	Uart uart1;
+	led1.init();
+	uart1.init();
+	led1.set_delay(1000);
 	while (1) 
 	{
-		led1.led_on();
-	    k_msleep(SLEEP_TIME_MS);   /* kernel service function k_msleep() putting the main function to sleep for 1 second, resulting in the blinking behavior at 1-second intervals.*/
-		led1.led_off();
-		k_msleep(SLEEP_TIME_MS);
+		led1.on();
+		led1.off();   
 	}
 
 	return 0;

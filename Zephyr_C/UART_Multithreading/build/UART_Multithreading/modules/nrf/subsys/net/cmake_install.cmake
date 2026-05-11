@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/modules/nrf/subsys/net/lib/cmake_install.cmake")
+  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/modules/nrf/subsys/net/lib/cmake_install.cmake")
 endif()
 

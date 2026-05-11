@@ -20,6 +20,6 @@ cmake:
   sysbuild: 'true'
 version: '0.1.0'
 west:
-  command: '/home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/west build --build-dir /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY --pristine --board nrf7002dk/nrf5340/cpuapp -- -DCONF_FILE=prj.conf -DDEBUG_THREAD_INFO=Off -DCONFIG_DEBUG_OPTIMIZATIONS=y -DBLINKY_DEBUG_THREAD_INFO=Off'
+  command: '/home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/west build --build-dir /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY --pristine --board nrf7002dk/nrf5340/cpuapp -- -DCONF_FILE=prj.conf -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y -DBLINKY_DEBUG_THREAD_INFO=On'
   topdir: '/home/musman/ncs/nrfSDK'
   version: '1.4.0'

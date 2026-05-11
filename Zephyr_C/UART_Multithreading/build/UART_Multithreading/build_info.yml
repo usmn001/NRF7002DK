@@ -1,7 +1,7 @@
 cmake:
   application:
-    configuration-dir: '/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading'
-    source-dir: '/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading'
+    configuration-dir: '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading'
+    source-dir: '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading'
   board:
     name: 'nrf7002dk'
     path:
@@ -12,9 +12,12 @@ cmake:
     bindings-dirs:
      - '/home/musman/ncs/nrfSDK/nrf/dts/bindings'
      - '/home/musman/ncs/nrfSDK/zephyr/dts/bindings'
+    extra-user-files:
+     - 'nrf7002dk_nrf5340_cpuapp.overlay'
     files:
      - '/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp.dts'
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay'
+     - 'nrf7002dk_nrf5340_cpuapp.overlay'
     include-dirs:
      - '/home/musman/ncs/nrfSDK/nrf/include'
      - '/home/musman/ncs/nrfSDK/nrf/dts/common'
@@ -36,13 +39,13 @@ cmake:
      - '/home/musman/ncs/nrfSDK/zephyr/dts/arc'
      - '/home/musman/ncs/nrfSDK/zephyr/dts'
     user-files:
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay'
   kconfig:
     files:
      - '/home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp_defconfig'
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/prj.conf'
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/misc/generated/extra_kconfig_options.conf'
-     - '/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading/zephyr/.config.sysbuild'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/prj.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/misc/generated/extra_kconfig_options.conf'
+     - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading/zephyr/.config.sysbuild'
     user-files:
      - 'prj.conf'
   toolchain:

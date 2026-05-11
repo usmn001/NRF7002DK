@@ -9,4 +9,5 @@ project(BLINKY)
 
 target_sources(app PRIVATE src/main.cpp)
 target_sources(app PRIVATE src/drivers/led.cpp)
+target_sources(app PRIVATE src/drivers/uart.cpp)
 

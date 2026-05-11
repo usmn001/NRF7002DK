@@ -24,7 +24,7 @@ APPLICATION_SOURCE_DIR:PATH=/home/musman/ncs/nrfSDK/zephyr/share/sysbuild/templa
 APP_DIR:PATH=/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY
 
 //No help, variable specified on the command line.
-BLINKY_DEBUG_THREAD_INFO:UNINITIALIZED=Off
+BLINKY_DEBUG_THREAD_INFO:UNINITIALIZED=On
 
 //Selected board
 BOARD:STRING=nrf7002dk/nrf5340/cpuapp
@@ -79,10 +79,13 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 CONFIG_DEBUG_OPTIMIZATIONS:UNINITIALIZED=y
 
 //No help, variable specified on the command line.
+CONFIG_DEBUG_THREAD_INFO:UNINITIALIZED=y
+
+//No help, variable specified on the command line.
 CONF_FILE:UNINITIALIZED=prj.conf
 
 //No help, variable specified on the command line.
-DEBUG_THREAD_INFO:UNINITIALIZED=Off
+DEBUG_THREAD_INFO:UNINITIALIZED=On
 
 //No help, variable specified on the command line.
 WEST_PYTHON:UNINITIALIZED=/home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/python3.12

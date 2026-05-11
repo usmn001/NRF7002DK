@@ -42,8 +42,3 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/cpp/abi/cmake_install.cmake")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/cpp/minimal/cmake_install.cmake")
-endif()
-

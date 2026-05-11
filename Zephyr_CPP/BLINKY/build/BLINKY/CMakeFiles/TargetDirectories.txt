@@ -78,8 +78,6 @@
 /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/cpp/CMakeFiles/edit_cache.dir
 /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/cpp/abi/CMakeFiles/rebuild_cache.dir
 /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/cpp/abi/CMakeFiles/edit_cache.dir
-/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/cpp/minimal/CMakeFiles/rebuild_cache.dir
-/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/cpp/minimal/CMakeFiles/edit_cache.dir
 /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/hash/CMakeFiles/rebuild_cache.dir
 /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/hash/CMakeFiles/edit_cache.dir
 /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BLINKY/build/BLINKY/zephyr/lib/heap/CMakeFiles/rebuild_cache.dir

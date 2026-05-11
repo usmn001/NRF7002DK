@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Multithreading"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Multithreading"
 		},
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Multithreading.rule"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Multithreading.rule"
 		},
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Multithreading-complete.rule"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/CMakeFiles/UART_Multithreading-complete.rule"
 		},
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-build.rule"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-build.rule"
 		},
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-configure.rule"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-configure.rule"
 		},
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-download.rule"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-download.rule"
 		},
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-install.rule"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-install.rule"
 		},
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-mkdir.rule"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-mkdir.rule"
 		},
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-patch.rule"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-patch.rule"
 		},
 		{
-			"file" : "/home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-update.rule"
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/_sysbuild/sysbuild/images/UART_Multithreading-prefix/src/UART_Multithreading-stamp/UART_Multithreading-update.rule"
 		}
 	],
 	"target" : 

@@ -15,7 +15,7 @@ config:
   board_dir: /home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk
   # Build outputs:
   elf_file: zephyr.elf
-  hex_file: /home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/merged.hex
+  hex_file: /home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/merged.hex
   bin_file: zephyr.bin
   # Host tools:
   gdb: /home/musman/ncs/toolchains/b2ecd2435d/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb

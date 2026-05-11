@@ -36,4 +36,5 @@ empty_file.o: /home/musman/ncs/nrfSDK/zephyr/misc/empty_file.c \
  /home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp_pinctrl.dtsi \
  /home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk/nrf70_common.dtsi \
  /home/musman/ncs/nrfSDK/zephyr/boards/nordic/nrf7002dk/nrf70_common_5g.dtsi \
- /home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay
+ /home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/nrf7002dk_nrf5340_cpuapp.overlay \
+ nrf7002dk_nrf5340_cpuapp.overlay

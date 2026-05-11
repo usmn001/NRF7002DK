@@ -1,7 +1,7 @@
 default: UART_Multithreading
-build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build
 domains:
   - name: UART_Multithreading
-    build_dir: /home/musman/Desktop/NRF7002DK_GIT/UART_Multithreading/build/UART_Multithreading
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/Zephyr_C/UART_Multithreading/build/UART_Multithreading
 flash_order:
   - UART_Multithreading

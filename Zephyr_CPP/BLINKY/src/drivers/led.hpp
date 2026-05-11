@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <zephyr/kernel.h> 
 #include <zephyr/drivers/gpio.h> 
-
+#include <zephyr/logging/log.h>
 
 typedef enum 
 {
@@ -15,17 +15,20 @@ led_busy = 3
 }ret_en;
 
 
-class led
+class Led
 {
 private : 
     gpio_dt_spec led_light;
     bool led_state;
+    uint16_t delay;
 
 public : 
-    led(bool led_state=false);                        // Default Constructor
+    Led(bool led_state=false);                        // Default Constructor
     //led(const gpio_dt_spec &led);                   // Copy Constructor
-    ~led(){};
-    ret_en led_init();
-    void led_on();
-    void led_off();
+    ~Led(){};
+    ret_en init();
+    void on();
+    void off();
+    void set_delay(uint16_t delay_p);
+
 };
