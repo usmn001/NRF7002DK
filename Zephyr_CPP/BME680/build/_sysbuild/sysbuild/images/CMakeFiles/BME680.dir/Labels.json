@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/CMakeFiles/BME680"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/CMakeFiles/BME680.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/CMakeFiles/BME680-complete.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/BME680-prefix/src/BME680-stamp/BME680-build.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/BME680-prefix/src/BME680-stamp/BME680-configure.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/BME680-prefix/src/BME680-stamp/BME680-download.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/BME680-prefix/src/BME680-stamp/BME680-install.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/BME680-prefix/src/BME680-stamp/BME680-mkdir.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/BME680-prefix/src/BME680-stamp/BME680-patch.rule"
+		},
+		{
+			"file" : "/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/sysbuild/images/BME680-prefix/src/BME680-stamp/BME680-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BME680"
+		],
+		"name" : "BME680"
+	}
+}

@@ -1,0 +1,7 @@
+default: BME680
+build_dir: /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build
+domains:
+  - name: BME680
+    build_dir: /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/BME680
+flash_order:
+  - BME680
