@@ -1,4 +1,6 @@
 cmake:
+  application:
+    source-dir: '/home/musman/ncs/nrfSDK/zephyr/share/sysbuild'
   board:
     name: 'nrf7002dk'
     path:
@@ -15,6 +17,7 @@ cmake:
      - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/empty.conf'
     user-files:
      - '/home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build/_sysbuild/empty.conf'
+  sysbuild: 'true'
 version: '0.1.0'
 west:
   command: '/home/musman/ncs/toolchains/b2ecd2435d/usr/local/bin/west build --build-dir /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680/build /home/musman/Desktop/NRF7002DK_GIT/Zephyr_CPP/BME680 --pristine --board nrf7002dk/nrf5340/cpuapp -- -DCONF_FILE=prj.conf -DDTC_OVERLAY_FILE=nrf7002dk_nrf5340_cpuapp.overlay -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y -DBME680_DEBUG_THREAD_INFO=On'

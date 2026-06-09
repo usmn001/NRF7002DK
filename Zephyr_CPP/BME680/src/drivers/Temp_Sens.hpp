@@ -1,5 +1,5 @@
-#ifndef BME680_FUNC_H
-#define BME680_FUNC_H
+#ifndef TEMP_SENS_FUNC_H
+#define TEMP_SENS_FUNC_H
 
 #include <iostream>
 #include <zephyr/kernel.h>        /* For using kernel services as we are using k_msleep() function*/
@@ -24,13 +24,18 @@ namespace BME680
     constexpr uint8_t TEMP_MSB_REG          = 0x22;       // Bits 7:0 
     constexpr uint8_t TEMP_LSB_REG          = 0x23;       // Bits 7:0
     constexpr uint8_t TEMP_XLSB_REG         = 0x24;       // Bits 7:4
+    
+    constexpr uint8_t TEMP_PAR_T1_LSB_REG   = 0xE9;       // Calibration data for temperature compensation
+    constexpr uint8_t TEMP_PAR_T1_MSB_REG   = 0xEA;       // Calibration data for temperature compensation
+    
+    constexpr uint8_t TEMP_PAR_T2_LSB_REG   = 0x8A;       // Calibration data for temperature compensation
+    constexpr uint8_t TEMP_PAR_T2_MSB_REG   = 0x8B;       // Calibration data for temperature compensation
+    constexpr uint8_t TEMP_PAR_T3_LSB_REG   = 0x8C;       // Calibration data for temperature compensation
 
     constexpr uint8_t HUM_MSB_REG           = 0x25;       // Bits 7:0
     constexpr uint8_t HUM_LSB_REG           = 0x26;       // Bits 7:0
 
-    constexpr uint8_t PRESS_MSB_REG         = 0x1F;       // Bits 7:0
-    constexpr uint8_t PRESS_LSB_REG         = 0x20;       // Bits 7:0
-    constexpr uint8_t PRESS_XLSB_REG        = 0x21;       // Bits 7:4
+    
 
     // GAS SENSOR RESISTANCE DATA REGISTERS
     constexpr uint8_t GAS_R_MSB_REG         = 0x2A;        // Bits 7:0
@@ -45,11 +50,19 @@ namespace BME680
                                                           // Bit Position is 5 For Temp, Pressure, Humidity Status  
     
     
-    constexpr uint8_t CTRL_TEMP_PRES_REG    = 0x74;
+    constexpr uint8_t CTRL_TEMP_PRES_REG    = 0x74;      // Control register for temperature and pressure oversampling settings
+                                                         // Setting Modes bits in this register also triggers a measurement when the sensor is in forced mode.  
 
     // CTRL REGISTER MODE BITS CONTROLLING SENSOR MODES
     constexpr uint8_t CTRL_MODE_SLEEP       = 0x00;   
     constexpr uint8_t CTRL_MODE_FORCED      = 0x01;
+
+    // CTRL REGISTER HUMIDITY BITS
+    constexpr uint8_t CTRL_HUM_SAMP1        = 0x01;
+    constexpr uint8_t CTRL_HUM_SAMP2        = 0x02;
+    constexpr uint8_t CTRL_HUM_SAMP4        = 0x03;
+    constexpr uint8_t CTRL_HUM_SAMP8        = 0x04;
+    constexpr uint8_t CTRL_HUM_SAMP16       = 0x05;
     
     // CTRL REGISTER TEMPERATURE BITS
     constexpr uint8_t CTRL_TEMP_SAMP1       = 0x20;   
@@ -72,24 +85,38 @@ namespace BME680
         I2C_WRITE_OK  = 2,
         I2C_WRITE_NOK = 3,
         I2C_INIT_OK   = 4,
-        I2C_INIT_NOK  = 5
+        I2C_INIT_NOK  = 5,
+        I2C_FORCED_MODE_OK = 6,
+        I2C_FORCED_MODE_NOK = 7
     }ret_i2c_en;
 
 
-    class Bme_sens
+    class Temp_Sens
     {
+        protected :
+        Temp_Sens();
+        
         private :
         const struct i2c_dt_spec dev_i2c;   /* Structure containing pointer to device node bme680  */
+        static uint16_t t_par_t1; // Calibration parameter T1 as a signed integer
+        static int16_t t_par_t2; // Calibration parameter T2 as a signed integer
+        static int8_t t_par_t3;
+        
         public : 
-        Bme_sens();
-        ~Bme_sens();
-        ret_i2c_en I2C_INIT();
-        ret_i2c_en I2C_WRITE(const uint8_t reg_addr, uint8_t *data, size_t len);
-        ret_i2c_en I2C_READ(const uint8_t reg_addr, uint8_t *data, size_t len);
-        ret_i2c_en I2C_READ_ID(uint8_t *data, size_t len);
-        ret_i2c_en I2C_READ_TEMP(uint8_t *data, size_t len);
-        ret_i2c_en I2C_READ_PRESSURE(uint8_t *data, size_t len);
+        static Temp_Sens & instance();
+        static Temp_Sens & get_instance() { return instance(); } // Alternative method to access the singleton instance
+        void I2C_INIT();
+        void I2C_READ_ID();
+        ret_i2c_en I2C_WRITE(const uint8_t reg_addr, uint8_t *data);
+        ret_i2c_en I2C_READ(const uint8_t reg_addr, uint8_t *data);
+        virtual ret_i2c_en I2C_READ_SENS(float *result);
+        void CONFIG_OSRS();
+        virtual void CONFIG_CALIB();
+        ret_i2c_en CONFIG_MODE();
+        virtual ~Temp_Sens()=default ;
     };
+
+
 }
 
 #endif // BME680_FUNC_H

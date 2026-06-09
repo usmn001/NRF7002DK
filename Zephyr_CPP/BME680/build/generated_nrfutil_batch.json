@@ -12,6 +12,13 @@
         "type": "program",
         "verify": "VERIFY_READ"
       }
+    },
+    {
+      "core": "NRFDL_DEVICE_CORE_APPLICATION",
+      "operation": {
+        "option": "RESET_PIN",
+        "type": "reset"
+      }
     }
   ]
 }

@@ -2,11 +2,11 @@
 #include <stdio.h> 
 #include <zephyr/kernel.h>        /* For using kernel services as we are using k_msleep() function*/
 #include <zephyr/drivers/gpio.h>  /* Contains structure gpio_dt_spec, the macros GPIO_DT_SPEC_GET(), and the functions, gpio_is_ready_dt(), gpio_pin_configure_dt() and gpio_pin_toggle_dt().*/
-
+#include <string>
 
 #include "drivers/led.hpp"
 #include "drivers/uart.hpp"
-#include "drivers/bme680_i2c.hpp"
+#include "drivers/Temp_Sens.hpp"
 /* 1000 msec = 1 sec */
 #define SLEEP_TIME_MS   1000
 
@@ -18,26 +18,22 @@
 
 int main(void)
 {
-	uint8_t data_buf;
-
+    float temp_buf{0.0f};
 	Led led1(0);
 	Uart uart1;
 	led1.init();
 	uart1.init();
 	led1.set_delay(1000);
-	BME680::Bme_sens s1;	    
-	s1.I2C_INIT();	
-	s1.I2C_READ_ID(&data_buf,8);
-	
-	
+   
 
+	auto& s1 = BME680::Temp_Sens::instance(); 
 
-
-	
 	while (1) 
-	{
-		led1.on();
-		led1.off();   
+	{  
+		s1.CONFIG_MODE();
+		s1.I2C_READ_SENS(&temp_buf);
+		printk("Temperature: %f \n", temp_buf);
+		k_msleep(SLEEP_TIME_MS);
 	}
 
 	return 0;
