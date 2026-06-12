@@ -95,12 +95,12 @@ namespace BME680
     {
         protected :
         Temp_Sens();
-        
-        private :
         const struct i2c_dt_spec dev_i2c;   /* Structure containing pointer to device node bme680  */
-        static uint16_t t_par_t1; // Calibration parameter T1 as a signed integer
-        static int16_t t_par_t2; // Calibration parameter T2 as a signed integer
-        static int8_t t_par_t3;
+        inline static int32_t t_fine{0};
+        private :
+        inline static uint16_t t_par_t1{0}; // Calibration parameter T1 as a signed integer
+        inline static int16_t t_par_t2{0}; // Calibration parameter T2 as a signed integer
+        inline static int8_t t_par_t3{0};
         
         public : 
         static Temp_Sens & instance();

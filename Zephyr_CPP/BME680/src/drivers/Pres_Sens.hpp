@@ -35,21 +35,23 @@ namespace BME680
     Pres_Sens();    
     
     private :
-    static uint16_t par_p1;
-    static int16_t  par_p2;
-    static int8_t   par_p3;
-    static int16_t  par_p4;
-    static int16_t  par_p5;
-    static int8_t   par_p6;
-    static int8_t   par_p7;
-    static int16_t  par_p8;
-    static int16_t  par_p9;
-    static uint8_t  par_p10;
+    inline static uint16_t par_p1{0};
+    inline static int16_t  par_p2{0};
+    inline static int8_t   par_p3{0};
+    inline static int16_t  par_p4{0};
+    inline static int16_t  par_p5{0};
+    inline static int8_t   par_p6{0};
+    inline static int8_t   par_p7{0};
+    inline static int16_t  par_p8{0};
+    inline static int16_t  par_p9{0};
+    inline static uint8_t  par_p10{0};
+    
+    inline static float  var1{0};
+    inline static float  var2{0};
     
 
     public :
     static Pres_Sens & instance();
-    //static Pres_Sens & get_instance() { return instance(); } // Alternative method to access the singleton instance
     virtual ret_i2c_en I2C_READ_SENS(float *result) override;
     virtual void CONFIG_CALIB() override;
     virtual ~Pres_Sens()=default;

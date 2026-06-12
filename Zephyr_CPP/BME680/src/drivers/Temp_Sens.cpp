@@ -7,9 +7,9 @@ LOG_MODULE_REGISTER(Temp_Sensor);
 
 namespace BME680
 {
-    uint16_t Temp_Sens::t_par_t1{0};
-    int16_t Temp_Sens::t_par_t2{0};
-    int8_t  Temp_Sens::t_par_t3{0}; 
+    //uint16_t Temp_Sens::t_par_t1{0};
+    //int16_t Temp_Sens::t_par_t2{0};
+    //int8_t  Temp_Sens::t_par_t3{0}; 
     
     Temp_Sens::Temp_Sens():dev_i2c(I2C_DT_SPEC_GET(I2C1_NODE))   /* Structure containing pointer to device node bme680  */
     {
@@ -180,13 +180,13 @@ namespace BME680
     {
         uint8_t temp_data[3] = {0}; // Array to hold the raw temperature data (MSB, LSB, XLSB)             
         uint8_t meas_status{0}; 
-        int32_t var1{0}, var2{0},var3{0}, t_fine{0};
+        int32_t var1{0}, var2{0},var3{0};
         float temp_comp{0.0f};
 
         ret_i2c_en ret_stat = I2C_READ_OK;
 
 
-        while((meas_status & 0x80)!=0x80)
+        while((meas_status & 0x20)==0x20)
         {
             ret_stat = I2C_READ(MEAS_STAT_REG,&meas_status);
             if(ret_stat != I2C_READ_OK)
@@ -215,6 +215,8 @@ namespace BME680
         var3 = ((var1 >> 1) * (var1 >> 1)) >> 12;
         var3 = (var3 * ((int32_t)t_par_t3 << 4)) >> 14;
         t_fine = var2 + var3;
+        LOG_INF("TEMPERATURE T_FINE = %i",t_fine);
+
         temp_comp = ((float)(((t_fine*5)+128)>>8))/100.0f; // Compensated temperature in Celsius
 
         *result = temp_comp; // Final compensated temperature in Celsius

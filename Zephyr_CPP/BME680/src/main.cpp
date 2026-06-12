@@ -7,6 +7,7 @@
 #include "drivers/led.hpp"
 #include "drivers/uart.hpp"
 #include "drivers/Temp_Sens.hpp"
+#include "drivers/Pres_Sens.hpp"
 /* 1000 msec = 1 sec */
 #define SLEEP_TIME_MS   1000
 
@@ -19,6 +20,7 @@
 int main(void)
 {
     float temp_buf{0.0f};
+	float pres_buf{0.0f};
 	Led led1(0);
 	Uart uart1;
 	led1.init();
@@ -27,12 +29,13 @@ int main(void)
    
 
 	auto& s1 = BME680::Temp_Sens::instance(); 
-
+    auto &s2 = BME680::Pres_Sens::instance();
 	while (1) 
 	{  
 		s1.CONFIG_MODE();
 		s1.I2C_READ_SENS(&temp_buf);
-		printk("Temperature: %f \n", temp_buf);
+		s2.I2C_READ_SENS(&pres_buf);
+		printk("Temperature %.2f Celsius, Pressure : %.2f Pa \n", static_cast<double>(temp_buf),static_cast<double>(pres_buf));
 		k_msleep(SLEEP_TIME_MS);
 	}
 

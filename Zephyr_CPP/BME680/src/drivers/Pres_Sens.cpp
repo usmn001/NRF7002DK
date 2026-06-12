@@ -7,18 +7,6 @@ LOG_MODULE_REGISTER(Pressure_Sensor);
 
 namespace BME680
 {
-    uint16_t Pres_Sens::par_p1{0};
-    int16_t  Pres_Sens::par_p2{0};
-    int8_t   Pres_Sens::par_p3{0};
-    int16_t  Pres_Sens::par_p4{0};
-    int16_t  Pres_Sens::par_p5{0};
-    int8_t   Pres_Sens::par_p6{0};
-    int8_t   Pres_Sens::par_p7{0};
-    int16_t  Pres_Sens::par_p8{0};
-    int16_t  Pres_Sens::par_p9{0};
-    uint8_t  Pres_Sens::par_p10{0};
-    
-    
     Pres_Sens::Pres_Sens():Temp_Sens()
     {
 
@@ -84,7 +72,6 @@ namespace BME680
         }
  
          
-
         ret_stat = I2C_READ(PAR_P4_LSB_REG, (uint8_t*)&par_p4_temp[0]);
         if (ret_stat != I2C_READ_OK) 
         {
@@ -100,7 +87,6 @@ namespace BME680
         }
 
         par_p4 = (int16_t)((par_p4_temp[1] << 8) | par_p4_temp[0]); // Combine MSB and LSB for T1
-
 
 
         ret_stat = I2C_READ(PAR_P5_LSB_REG, (uint8_t*)&par_p5_temp[0]);
@@ -152,8 +138,6 @@ namespace BME680
         par_p8 = (int16_t)((par_p8_temp[1] << 8) | par_p8_temp[0]); // Combine MSB and LSB for T1
 
 
-
-
         ret_stat = I2C_READ(PAR_P9_LSB_REG, (uint8_t*)&par_p9_temp[0]);
         if (ret_stat != I2C_READ_OK) 
         {
@@ -178,12 +162,53 @@ namespace BME680
             ret_stat = I2C_READ_NOK;
         }
 
+        var1 = ((float)t_fine / 2.0f) - 64000.0f;
+        var2 = var1 * var1 * ((float)par_p6 / 131072.0f);
+        var2 = var2 + (var1 * (float)par_p5 * 2.0f);
+        var2 = (var2 / 4.0f) + ((float)par_p4 * 65536.0f);
+        var1 = ((((float)par_p3 * var1 * var1) / 16384.0f) + ((float)par_p2 * var1)) / 524288.0f;
+        var1 = (1.0f + (var1 / 32768.0f)) * (float)par_p1;
+
     }
 
     ret_i2c_en Pres_Sens::I2C_READ_SENS(float *result)
     {
+        uint8_t pres_data[3] = {0}; // Array to hold the raw temperature data (MSB, LSB, XLSB)             
+        uint8_t meas_status{0}; 
+        float var1_n{0},var2_n{0},var3{0};
+        int32_t press_raw{0}; 
+        float press_comp{0};
+        ret_i2c_en ret_stat = I2C_READ_OK;
+        
+        //LOG_INF("IN READ_SENS VAR1_INIT VALUE = %i, VAR2_INIT VALUE %i,VAR3 VALUE %i ",var1_n,var2_n,var3); 
+        while((meas_status & 0x20)==0x20)
+        {
+            ret_stat = I2C_READ(MEAS_STAT_REG,&meas_status);
+            if(ret_stat != I2C_READ_OK)
+            {
+            LOG_ERR("I2C: Failed To Read Measurement Status\n");
+            ret_stat = I2C_READ_NOK; 
+            }
+        }
+        
+        int ret = i2c_burst_read_dt(&dev_i2c,PRESS_MSB_REG,pres_data,3);
+        if (ret!=0) 
+        {
+            LOG_ERR("I2C: Failed to read temperature data MSB,LSB,XLSB\n");
+            ret_stat = I2C_READ_NOK;
+        }
 
-
+       press_raw = (pres_data[0] << 12) | (pres_data[1] << 4) | (pres_data[2] >> 4); // Combine MSB, LSB, and XLSB for raw temperature
+        
+       press_comp = 1048576.0f - (float)press_raw;
+       press_comp = ((press_comp - (var2 / 4096.0f)) * 6250.0f) / var1;
+       var1_n = ((float)par_p9 * press_comp * press_comp) / 2147483648.0f;
+       var2_n = press_comp * ((float)par_p8 / 32768.0f);
+       var3 = (press_comp / 256.0f) * (press_comp / 256.0f) * (press_comp / 256.0f) * (par_p10 / 131072.0f);
+       press_comp = press_comp + (var1_n + var2_n + var3 + ((float)par_p7 * 128.0f)) / 16.0f; 
+       *result = press_comp;
+        
+        return ret_stat;
     }
 
 }
